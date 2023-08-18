@@ -1,0 +1,52 @@
+h3 {
+    color : green;
+    background-color: aquamarine;
+}
+
+p{
+    color: pink;
+    font-family: 'Tilt Prism';
+}
+
+/* id 선택자 */
+#here{
+    color : gold;
+    background-image: url('./assets/image/background.jpg');
+}
+
+/* class 선택자 */
+.hello{
+    color: purple;
+}
+
+/* p의 class 선택자 */
+p.center{
+    text-align: center;
+}
+
+/* p의 id 선택자 */
+p#size{
+    font-size: 50px;
+}
+
+/* ul의 class의 li모두 */
+ul.english > li{
+    color: royalblue;
+}
+
+ul.korean > li{
+    color: rgb(0,123,123);
+}
+
+.korean{
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: bisque; */
+    border: 2px dashed bisque;
+    border-radius: 5px;
+}
+
+.english{
+    /* margin-top: 50px; */
+    margin: 25px, 50px, 75px, 100px;
+}
